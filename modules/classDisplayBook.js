@@ -30,12 +30,10 @@ class DisplayBook {
     DisplayBook.setLs();
   }
 
-  // set local storage
   static setLs() {
     localStorage.setItem('books', JSON.stringify(forLs));
   }
 
-  // fetch local storage
   static getLs() {
     if (localStorage.getItem('books')) {
       const books = JSON.parse(localStorage.getItem('books'));

@@ -1,14 +1,11 @@
-// eslint-disable-next-line no-unused-vars
-import formInput from './modules/formInput.js';
+import './modules/formInput.js';
 
 import { DateTime } from './modules/luxon.js';
 
-// buttons
 const listBtn = document.querySelector('#list');
 const addBookBtn = document.querySelector('#add-new');
 const contactBtn = document.querySelector('#contact');
 
-// sections
 const contact = document.querySelector('.contact');
 const bookList = document.querySelector('.shelve');
 const addNewBook = document.querySelector('.form');
