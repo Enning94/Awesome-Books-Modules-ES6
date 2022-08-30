@@ -1,11 +1,11 @@
 # Awesome-Books-Modules-ES6
 
 
-> This project is to build a book library, that has functionality to Creates, Update and Delete (CRUD) books. Local storage was used in other to preserve user activities on this page
+> This is a Create, Read, Update, and Delete application built with JavaScript (ES6). It imitates a library where a user can add books to a library, it splits the code base into modules for ease in management. 
 
 ## Built With
 - HTML & CSS
-- Javascript
+- JavaScript (ES6)
 
 ## To get a local copy up and running follow these simple example steps.
 

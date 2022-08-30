@@ -31,7 +31,7 @@ contactBtn.addEventListener('click', (e) => {
   addNewBook.classList.add('hide');
 });
 
-const now = DateTime.now();
+const now = DateTime.now().toLocaleString(DateTime.DATETIME_HUGE);
 document.getElementById('dateAndtime').innerHTML = now;
 
 const scrollToTop = document.querySelector('.scroll-to-top');
