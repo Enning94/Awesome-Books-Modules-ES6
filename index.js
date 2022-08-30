@@ -42,4 +42,3 @@ window.addEventListener('scroll', () => {
     scrollToTop.classList.remove('fade');
   }
 });
-
